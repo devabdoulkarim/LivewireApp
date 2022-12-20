@@ -9,7 +9,9 @@
                 <tr>
 
                     <th></th>
-                    <x-table-header :direction="$orderDirection" name='name' :field="$orderField">Name</x-table-header >
+                    <x-table-header :direction="$orderDirection" name='name' :field="$orderField">
+                       <span style="cursor: pointer">Name</span>
+                    </x-table-header >
                     <x-table-header :direction="$orderDirection" name='title' :field="$orderField">Title</x-table-header >
                     <x-table-header :direction="$orderDirection" name='status' :field="$orderField">Status</x-table-header >
                     <th scope="col">Role</th>

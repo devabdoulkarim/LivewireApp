@@ -9,7 +9,7 @@ use Livewire\WithPagination;
 class UsersTable extends Component
 {
     // use WithPagination;
-    protected $paginationTheme = 'bootstrap';
+    // protected $paginationTheme = 'bootstrap';
     public string $search = "";
     public string $orderField = 'name';
     public string $orderDirection = 'ASC';
